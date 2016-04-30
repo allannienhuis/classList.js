@@ -11,8 +11,8 @@
 
 /*! @source http://purl.eligrey.com/github/classList.js/blob/master/classList.js */
 
-if ("document" in self) {
 debugger;
+if ("document" in self) {
 // Full polyfill for browsers with no classList support
 // Including IE < Edge missing SVGElement.classList
 if (!("classList" in document.createElement("_")) 
