@@ -184,9 +184,11 @@ if (objCtr.defineProperty) {
 
 }(self));
 
-} else {
-// There is full or partial native classList support, so just check if we need
-// to normalize the add/remove and toggle APIs.
+} 
+
+// Either natively or via polyfill, 
+// There is full or partial native classList support at this point,
+// so just check if we need to normalize the add/remove and toggle APIs.
 
 (function () {
 	"use strict";
@@ -233,8 +235,6 @@ if (objCtr.defineProperty) {
 
 	testElement = null;
 }());
-
-}
 
 }
 
